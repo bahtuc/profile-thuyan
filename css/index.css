@@ -60,12 +60,10 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Facebook */
 .social-link.facebook {
     background-color: #1877f2;
 }
 
-/* Instagram */
 .social-link.instagram {
     background: linear-gradient(45deg,
             #f09433,
@@ -81,24 +79,22 @@
 }
 
 .Video {
-    grid-column: 1 / 3;
-    margin-top: 25px;
+    grid-column: 1 / -1;
+    margin-top: 30px;
     text-align: center;
 }
 
 .Video h2 {
     font-size: 20px;
     color: #7a2f8f;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
-.ytb {
+.Video .video-wrapper {
     width: 100%;
     max-width: 900px;
+    margin: 0 auto;
     aspect-ratio: 16 / 9;
-    border-radius: 15px;
-    border: none;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 768px) {
