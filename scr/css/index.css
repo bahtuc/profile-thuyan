@@ -1,0 +1,29 @@
+/* ===== BỐ CỤC TRANG GIỚI THIỆU ===== */
+.container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+/* ===== ẢNH ĐẠI DIỆN ===== */
+.profileImage img {
+    width: 220px;
+    border-radius: 20px;
+    border: 5px solid rgb(253, 236, 255);
+    box-shadow: 0 8px 20px rgba(177, 79, 197, 0.3);
+}
+
+/* ===== THÔNG TIN CÁ NHÂN ===== */
+.profile {
+    flex: 1;
+}
+
+/* ===== HIỆU ỨNG ===== */
+.profile h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile p {
+    padding: 4px 0;
+}
