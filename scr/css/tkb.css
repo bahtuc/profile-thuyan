@@ -1,0 +1,91 @@
+/* =========================
+   TIÊU ĐỀ
+========================= */
+h1 {
+    text-align: center;
+    color: #c054a6;
+    margin-bottom: 5px;
+}
+
+.date {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #7a4c6d;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    color: #a23c88;
+}
+
+/* =========================
+   BẢNG THỜI KHÓA BIỂU
+========================= */
+.tkb {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Ô CHUNG */
+.tkb th,
+.tkb td {
+    border: 2px solid #e5a7d8;
+    padding: 8px;
+    font-size: 15px;
+}
+
+/* ===== HÀNG TIÊU ĐỀ ===== */
+.tkb th {
+    background-color: rgb(253, 236, 255);
+    color: #9a3c84;
+    font-weight: bold;
+}
+
+/* ===== CỘT TIẾT ===== */
+.tkb td:first-child {
+    background-color: #f6c1e8;
+    color: #7a2f66;
+    font-weight: bold;
+}
+
+/* ===== MÔN NỔI BẬT (BUỔI CHIỀU) ===== */
+.green {
+    background-color: #f3a6d9;
+    color: #6b1f55;
+    font-weight: bold;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    .tkb th,
+    .tkb td {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+.content h2 {
+    text-align: center;
+    color: #6b1f55;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    margin-top: 20px;
+    color: #7a2f8f;
+}
+
+.content ol, 
+.content ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.content li {
+    margin-bottom: 6px;
+    color: #555;
+}
