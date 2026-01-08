@@ -1,15 +1,10 @@
-/* =========================
-   RESET CƠ BẢN
-========================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* =========================
-   BODY CHUNG
-========================= */
 body {
     font-family: "Segoe UI", Tahoma, sans-serif;
     background-color: rgb(253, 236, 255);
@@ -17,9 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* =========================
-   CONTAINER CHUNG
-========================= */
+
 .container {
     max-width: 1000px;
     margin: 40px auto;
@@ -29,9 +22,7 @@ body {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* =========================
-   TIÊU ĐỀ & VĂN BẢN
-========================= */
+
 h1 {
     font-size: 32px;
     color: #b14fc5;
@@ -51,9 +42,6 @@ p {
     color: #555;
 }
 
-/* =========================
-   THANH BUTTON ĐIỀU HƯỚNG
-========================= */
 .buttonBox {
     display: flex;
     justify-content: center;
@@ -67,9 +55,7 @@ p {
     text-decoration: none;
 }
 
-/* =========================
-   BUTTON DÙNG CHUNG
-========================= */
+
 .btn-intro {
     display: inline-flex;
 }
@@ -94,7 +80,7 @@ p {
     transition: all 0.25s ease;
 }
 
-/* HOVER – NỔI LÊN */
+
 .btn-intro button:hover {
     transform: translateY(-4px);
     box-shadow:
@@ -110,9 +96,7 @@ p {
         0 8px 14px rgba(0, 0, 0, 0.2);
 }
 
-/* =========================
-   RESPONSIVE (MOBILE)
-========================= */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 26px;

@@ -1,6 +1,4 @@
-/* =========================
-   TIÊU ĐỀ
-========================= */
+
 h1 {
     text-align: center;
     color: #c054a6;
@@ -18,9 +16,7 @@ h2 {
     color: #a23c88;
 }
 
-/* =========================
-   BẢNG THỜI KHÓA BIỂU
-========================= */
+
 .tkb {
     width: 100%;
     border-collapse: collapse;
@@ -29,7 +25,7 @@ h2 {
     background-color: #fff;
 }
 
-/* Ô CHUNG */
+
 .tkb th,
 .tkb td {
     border: 2px solid #e5a7d8;
@@ -37,30 +33,27 @@ h2 {
     font-size: 15px;
 }
 
-/* ===== HÀNG TIÊU ĐỀ ===== */
+
 .tkb th {
     background-color: rgb(253, 236, 255);
     color: #9a3c84;
     font-weight: bold;
 }
 
-/* ===== CỘT TIẾT ===== */
+
 .tkb td:first-child {
     background-color: #f6c1e8;
     color: #7a2f66;
     font-weight: bold;
 }
 
-/* ===== MÔN NỔI BẬT (BUỔI CHIỀU) ===== */
+
 .green {
     background-color: #f3a6d9;
     color: #6b1f55;
     font-weight: bold;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 768px) {
     .tkb th,
     .tkb td {
